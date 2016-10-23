@@ -39,7 +39,27 @@
         return false;
       };
       this.customClusterer = function() {
-        return false;
+        var styles = [
+                      {
+                        textColor: 'white',
+                        url: 'path/to/smallclusterimage.png',
+                        height: 50,
+                        width: 50
+                      },
+                     {
+                        textColor: 'white',
+                        url: 'path/to/mediumclusterimage.png',
+                        height: 50,
+                        width: 50
+                      },
+                     {
+                        textColor: 'white',
+                        url: 'path/to/largeclusterimage.png',
+                        height: 50,
+                        width: 50
+                      }
+                    ];
+        return styles;
       };
       this.infobox = function() {
         return false;
